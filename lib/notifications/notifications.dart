@@ -10,7 +10,7 @@ class Notifications {
 
   Future<FlutterLocalNotificationsPlugin> initNotifies(BuildContext context) async{
     this._context = context;
-    //-----------------------------| Inicialize local notifications |--------------------------------------
+    //---------------------------- Inicialize local notifications --------------------------------
     var initializationSettingsAndroid =
     new AndroidInitializationSettings('app_icon');
     var initializationSettingsIOS = new IOSInitializationSettings();
@@ -20,7 +20,7 @@ class Notifications {
     flutterLocalNotificationsPlugin.initialize(initializationSettings,
         onSelectNotification: onSelectNotification);
     return flutterLocalNotificationsPlugin;
-    //======================================================================================================
+    //==========================================
   }
 
 
