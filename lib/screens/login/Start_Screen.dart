@@ -29,7 +29,6 @@ class StartScreen extends StatelessWidget
 
 
   final ButtonStyle button_Primary= ElevatedButton.styleFrom(
-    //side: MaterialStateProperty.all((BorderSide(color: Colors.black))),
     side: const BorderSide(
       width: 2, // the thickness
       color: Colors.blue, // the color of the border
@@ -76,9 +75,7 @@ class StartScreen extends StatelessWidget
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
 
-                  /*SizedBox(
-                  height: 10.0,
-                ),*/
+                 
                   Container(
                     child: Center(child: Text("welcom to the application ",
 
@@ -93,15 +90,12 @@ class StartScreen extends StatelessWidget
 
                    Image.asset(
 
-                    //'https://avatars.githubusercontent.com/u/34492145?v=4',
-
-
+                
                       'assets/images/medicinee.jpg',
 
 
                     width: double.infinity,
                       height: deviceHeight* 0.4
-                   // height: double.infinity,
                   ),
                   SizedBox(
                     height:70.0,
@@ -116,7 +110,7 @@ class StartScreen extends StatelessWidget
                             builder: (context)=>Welcome2(),
                           ),
                         );
-                      }, child: const Text("Sign with geogle",
+                      }, child: const Text("Get  Start",
                         style: TextStyle(
                           fontSize: 20,
                         ),),
@@ -129,66 +123,9 @@ class StartScreen extends StatelessWidget
                     height: 20.0,
                   ),
 
-
-
-                  /*SizedBox(
-                    height: 50,
-                    width: 350,
-                    child:ElevatedButton(style: button_Primary
-                      ,onPressed: (){
-                        Navigator.push(context,
-                          MaterialPageRoute(
-                            builder: (context)=>Welcome(),
-                          ),
-                        );
-                      }, child: const Text("Login",
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.blue,
-                        ),),
-
-                    ),
-                  ),*/
-
-
-                  /*
-
-                SizedBox(
-                  height: 50,
-                  width: 350,
-
-                  child:ElevatedButton(onPressed: (){},
-                    style: ButtonStyle(
-
-                      shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(
-                            borderRadius:BorderRadius.circular(20)
-                        ),
-
-
-                        ),
-                    ),
-                    child: Text(
-                      "Login",
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.black
-                        // backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
-                      ),
-                    ),
-                  ),
-
-
-                ), */
-
                   SizedBox(
                     height: 10.0,
                   ),
-
-
-
-
-
-
 
 
 
