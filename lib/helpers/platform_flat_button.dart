@@ -33,28 +33,9 @@ class PlatformFlatButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(15.0),
           )
 
-    ///////////////////////BY ME////////////////////////////////
-        /*SizedBox(
-      height: 50,
-      width: 350,
-      child:ElevatedButton(style: buttonPrimary
-        ,onPressed: (){
-          /*Navigator.push(context,
-            MaterialPageRoute(
-              builder: (context)=>Home(),
-            ),
-          );*/
-        }, child: const Text("Done",
-          style: TextStyle(
-            fontSize: 20,
-            color: Colors.white,
-          ),),
+   
 
-      ),
-    );*/
-
-
-    /////////////////////// END BY ME////////////////////////////////
+    /////////////////////// 
 
 
      :SingleChildScrollView(
@@ -64,16 +45,7 @@ class PlatformFlatButton extends StatelessWidget {
     shape: RoundedRectangleBorder(
     borderRadius: BorderRadius.circular(25.0),
     ),
-    /*style: TextButton.styleFrom(
-              primary:Color.fromRGBO(7, 190, 200, 1),
-              textStyle: TextStyle(
-                color: Colors.cyan,
-               // color: this.color,
-              ),
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(30.0)
-              ),
-            ),*/
+    
 
     child:this.buttonChild,
     onPressed: this.handler,
@@ -82,29 +54,7 @@ class PlatformFlatButton extends StatelessWidget {
      );
 
 
-    /*:MaterialButton(
-            color: Color.fromRGBO(7, 190, 200, 1),
-            height: 4.0,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(20.0),
-            ),
-            /*style: TextButton.styleFrom(
-              primary:Color.fromRGBO(7, 190, 200, 1),
-              textStyle: TextStyle(
-                color: Colors.cyan,
-               // color: this.color,
-              ),
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(30.0)
-              ),
-            ),*/
-
-            child:this.buttonChild,
-            onPressed: this.handler,
-
-          );*/
-
-
+   
   }
 }
 
