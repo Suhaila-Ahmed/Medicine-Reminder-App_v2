@@ -12,6 +12,7 @@ class FormFields extends StatelessWidget {
   final TextEditingController amountController;
   FormFields(this.howManyWeeks,this.selectWeight,this.onPopUpMenuChanged,this.onSliderChanged,this.nameController,this.amountController);
 
+  
   @override
   Widget build(BuildContext context) {
     final focus = FocusScope.of(context);
