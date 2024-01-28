@@ -15,6 +15,7 @@ class UserSlider extends StatelessWidget {
             child: PlatformSlider(
               divisions: 11,
               min: 1,
+              
               max: 10,
               value: howManyWeeks,
               color: Theme.of(context).primaryColor,
