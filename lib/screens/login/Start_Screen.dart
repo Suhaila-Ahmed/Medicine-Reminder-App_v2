@@ -1,7 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-//import 'package:myfoooooood/styles/button.dart';
-//import 'package:myfoooooood/styles/typo.dart';
 import 'package:flutter/src/widgets/constants.dart';
 import 'package:medicine/screens/home/home.dart';
 import 'package:medicine/screens/welcome/Welcome2.dart';
