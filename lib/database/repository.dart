@@ -5,6 +5,7 @@ import 'package:sqflite/sqflite.dart';
 
 class Repository{
 
+  
   PillsDatabase _pillsDatabase = PillsDatabase();
   static Database _database;
 
